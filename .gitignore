@@ -1,0 +1,12 @@
+**/__pycache__
+*.pyc
+**/.cache
+
+# new format are below
+*/.pytest_cache
+__pycache__/
+*.py[cod]
+.cache
+*$py.class
+*.png
+g*.loggit
