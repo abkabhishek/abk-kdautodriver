@@ -1,0 +1,5 @@
+commond,option,variable,expected,condition,valueone,valuetwo,valuethree,valuefour,valuefive
+get,E,,,,https://www.google.com,,,,
+title,GV,,Google,in,,,,,
+find_element,ES-E,elem,,,NAME,q,,,
+send_keys,EG-E,elem,,,paris,,,,
