@@ -1,4 +1,4 @@
-
+import traceback
 import time
 import unittest
 from sys import stdout as console
@@ -20,7 +20,11 @@ def main(myFile):
     E = MainDriver(driver)
 
     for row in FL:
-        assert E.rowReader(row)
+        try:
+            assert E.rowReader(row)
+        except AssertionError as e:
+            print(traceback.format_exc())
+            continue
 
 
 

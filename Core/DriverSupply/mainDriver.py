@@ -106,7 +106,8 @@ class MainDriver:
             else:
                 console.write("Element not present")
                 return False
-
+        else:
+            return False
 
 
 
